@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/cube-recipes-CP7leR-a.js","assets/debounce-DlM2vs2L.js","assets/filter-helpers-018iK1be.js","assets/uniques-CRYeiJbM.js","assets/item-type-filters-DhJkOFOx.js","assets/character-classes-LLAbBzNg.js","assets/damage-types-Du-j2Hbt.js","assets/uniques-DeMJXKTa.js","assets/sets-CW0UJJMM.js","assets/sets-BHx8JpOO.js","assets/runewords-Cspfu2U0.js","assets/runewords-9XTgQhJw.js","assets/grail-BmUHIzxI.js","assets/bases-sxWBAbJ1.js","assets/affixes-CPPYIEoI.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/cube-recipes--3NKgUCJ.js","assets/debounce-DlM2vs2L.js","assets/filter-helpers-018iK1be.js","assets/uniques-DDQxBjJl.js","assets/item-type-filters-DhJkOFOx.js","assets/character-classes-LLAbBzNg.js","assets/damage-types-Du-j2Hbt.js","assets/uniques-tsusRNnj.js","assets/sets-NkZhrlmT.js","assets/sets-DZrR4krK.js","assets/runewords-CHTnSdfD.js","assets/runewords-BBtvAomj.js","assets/grail-CUUYo1pk.js","assets/bases-JZSsp4Ij.js","assets/affixes-D1rmmF08.js"])))=>i.map(i=>d[i]);
 (function polyfill() {
   const relList = document.createElement("link").relList;
   if (relList && relList.supports && relList.supports("modulepreload")) return;
@@ -25804,7 +25804,7 @@ function syncParamsToUrl(params, push = true) {
 }
 const scriptRel = "modulepreload";
 const assetsURL = function(dep) {
-  return "/" + dep;
+  return "/d2rr-testsite/" + dep;
 };
 const seen = {};
 const __vitePreload = function preload(baseModule, deps, importerUrl) {
@@ -25860,7 +25860,7 @@ const name = "app";
 const template = `<nav class="bg-gray-800 fixed w-full z-20 top-0 left-0 shadow-xl border-b border-gray-600 h-16">
     <div class="w-full h-16 px-4 flex flex-nowrap items-center justify-between mx-auto">
 
-        <a href="/" class="text-xl link-text truncate">
+        <a href="./" class="text-xl link-text truncate">
             D2R Reimagined
         </a>
 
@@ -25921,31 +25921,31 @@ const template = `<nav class="bg-gray-800 fixed w-full z-20 top-0 left-0 shadow-
              id="navbar-sticky">
             <ul class="flex flex-col gap-4 p-4 border border-gray-600 bg-gray-800 rounded-b-lg lg:flex-row lg:gap-6 lg:p-0 lg:border-0 lg:bg-transparent">
                 <li>
-                    <a href="/bases" class="block text-lg link-text" aria-current="page"
+                    <a href="./bases" class="block text-lg link-text" aria-current="page"
                        click.trigger="closeMobileMenu()">Bases</a>
                 </li>
                 <li>
-                    <a href="/affixes" class="block text-lg link-text" aria-current="page"
+                    <a href="./affixes" class="block text-lg link-text" aria-current="page"
                        click.trigger="closeMobileMenu()">Affixes</a>
                 </li>
                 <li>
-                    <a href="/uniques" class="block text-lg link-text" aria-current="page"
+                    <a href="./uniques" class="block text-lg link-text" aria-current="page"
                        click.trigger="closeMobileMenu()">Uniques</a>
                 </li>
                 <li>
-                    <a href="/sets" class="block text-lg link-text" aria-current="page"
+                    <a href="./sets" class="block text-lg link-text" aria-current="page"
                        click.trigger="closeMobileMenu()">Sets</a>
                 </li>
                 <li>
-                    <a href="/runewords" class="block text-lg link-text" aria-current="page"
+                    <a href="./runewords" class="block text-lg link-text" aria-current="page"
                        click.trigger="closeMobileMenu()">Runewords</a>
                 </li>
                 <li>
-                    <a href="/grail" class="block text-lg link-text" aria-current="page"
+                    <a href="./grail" class="block text-lg link-text" aria-current="page"
                        click.trigger="closeMobileMenu()">Grail</a>
                 </li>
                 <li>
-                    <a href="/cube-recipes" class="block text-lg link-text truncate" aria-current="page"
+                    <a href="./cube-recipes" class="block text-lg link-text truncate" aria-current="page"
                        click.trigger="closeMobileMenu()">Cube Recipes</a>
                 </li>
                 <li>
@@ -26032,42 +26032,42 @@ _App_decorators = [customElement(__au2ViewDef), route({
   routes: [
     {
       path: "",
-      component: __vitePreload(() => import("./home-HlfhY7P4.js"), true ? [] : void 0),
+      component: __vitePreload(() => import("./home-7p4bs72j.js"), true ? [] : void 0),
       title: "Home"
     },
     {
       path: "cube-recipes",
-      component: __vitePreload(() => import("./cube-recipes-CP7leR-a.js"), true ? __vite__mapDeps([0,1,2]) : void 0),
+      component: __vitePreload(() => import("./cube-recipes--3NKgUCJ.js"), true ? __vite__mapDeps([0,1,2]) : void 0),
       title: "Cube Recipes"
     },
     {
       path: "uniques",
-      component: __vitePreload(() => import("./uniques-CRYeiJbM.js"), true ? __vite__mapDeps([3,4,5,6,1,2,7]) : void 0),
+      component: __vitePreload(() => import("./uniques-DDQxBjJl.js"), true ? __vite__mapDeps([3,4,5,6,1,2,7]) : void 0),
       title: "Uniques"
     },
     {
       path: "sets",
-      component: __vitePreload(() => import("./sets-CW0UJJMM.js"), true ? __vite__mapDeps([8,4,5,6,1,2,9]) : void 0),
+      component: __vitePreload(() => import("./sets-NkZhrlmT.js"), true ? __vite__mapDeps([8,4,5,6,1,2,9]) : void 0),
       title: "Sets"
     },
     {
       path: "runewords",
-      component: __vitePreload(() => import("./runewords-Cspfu2U0.js"), true ? __vite__mapDeps([10,4,1,2,11]) : void 0),
+      component: __vitePreload(() => import("./runewords-CHTnSdfD.js"), true ? __vite__mapDeps([10,4,1,2,11]) : void 0),
       title: "Runewords"
     },
     {
       path: "grail",
-      component: __vitePreload(() => import("./grail-BmUHIzxI.js"), true ? __vite__mapDeps([12,4,5,6,1,2,11,9,7]) : void 0),
+      component: __vitePreload(() => import("./grail-CUUYo1pk.js"), true ? __vite__mapDeps([12,4,5,6,1,2,11,9,7]) : void 0),
       title: "Holy Grail"
     },
     {
       path: "bases",
-      component: __vitePreload(() => import("./bases-sxWBAbJ1.js"), true ? __vite__mapDeps([13,4,6,2]) : void 0),
+      component: __vitePreload(() => import("./bases-JZSsp4Ij.js"), true ? __vite__mapDeps([13,4,6,2]) : void 0),
       title: "Bases"
     },
     {
       path: "affixes",
-      component: __vitePreload(() => import("./affixes-CPPYIEoI.js"), true ? __vite__mapDeps([14,4,1,2]) : void 0),
+      component: __vitePreload(() => import("./affixes-D1rmmF08.js"), true ? __vite__mapDeps([14,4,1,2]) : void 0),
       title: "Affixes"
     }
   ]
